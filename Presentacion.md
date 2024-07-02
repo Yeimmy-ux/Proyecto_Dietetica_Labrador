@@ -5,15 +5,15 @@ Actualmente la Dietética “Yerbabuena Tienda Saludable“ utiliza Excel como s
 
 ### DESCRIPCION DEL PROBLEMA:
 
-•	**Gestion de Clientes**: Base de datos que almacena la información de los clientes que realizan pedidos.
-
 •	**Pedidos**: Contiene la información de los pedidos realizados por los clientes, incluyendo detalles como fecha, Productos, precio por unidad, Precio total, y método de pago utilizado.
-
-•	**Proveedores**: Para gestionar la información de los proveedores que suministran productos a la dietética.
 
 •	**Productos**: Incluye los productos disponibles para la venta, con detalles como nombre, descripción, precio y stock. Además, se quiere hacer referencia a las categorías a las que pertenecen y los proveedores que los suministran.
 
 •	**Facturación**: Base de datos que contiene los detalles específicos de cada factura asociada a un pedido, como cantidad, precio unitario y subtotal.
+
+•  **Gestion de Clientes**: Base de datos que almacena la información de los clientes que realizan pedidos.
+
+•	**Proveedores**: Para gestionar la información de los proveedores que suministran productos a la dietética.
 
 •	**Categorías**: Define las categorías a las que pertenecen los productos.
 
@@ -64,7 +64,7 @@ Esta base de datos permite gestionar eficientemente el proceso de pedidos y cont
 - Categorias de los productos y cantidades.
 - Gestión de los pedidos y facturas.
 
-#### DER SIMPLIFICADO
+#### DER simplificado
 ```
 +------------------+        +----------------------+        +------------------+
 |      CLIENTE     |        |       PEDIDO         |        | Metedo_de_pago   |
