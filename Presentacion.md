@@ -69,33 +69,33 @@ Esta base de datos permite gestionar eficientemente el proceso de pedidos y cont
 +------------------+        +----------------------+        +------------------+
 |      CLIENTE     |        |       PEDIDO         |        | Metedo_de_pago   |
 +------------------+        +----------------------+        +------------------+
-| IDCliente (PK)   |<>-----o| IDPedido  (PK)       |o-------| IDMetodoPago(PK)||
+| IDCliente (PK)   |<>-----o| IDPedido  (PK)       |o-----<>| IDMetodoPago(PK)||
 | nombre           |        | IDCliente (FK)       |        | nombre           |
 | telefono         |        | IDProducto (FK)      |        | descripcion      |
 | email            |        | idEmpleado (FK)      |        +------------------+
-| direccion        |     ---| idMetodoPago (FK)    |          
+| direccion        |     --o| idMetodoPago (FK)    |          
 +------------------+    |   | fecha                |        
                         |   | Total                |
             |-----------    +----------------------+                  
             |                        |                                  
             |                        |                                  
             |                        |                                  
-            |                        v                                  
+            <>                       v                                  
 +------------------+        +-------------------+             +-------------------+
 |     Factura      |        |      Producto     |             |     Proveedor     |
 +------------------+        +-------------------+             +-------------------+
 | IDFactura (PK)   |        | IDProducto (PK)   |             | IDProveedor (PK)  |
-| Fecha            |        | IDProveedor(FK)   |o------------| nombre            |
+| Fecha            |        | IDProveedor(FK)   |<>----------o| nombre            |
 | Total            |        | ICategoria(FK)    |             | Direccion         |
 | IDPedido(FK)     |        | Descripcion       |             | telefono          | 
 +------------------+        | Precio Costo      |             | Email             |
                             | Stock Actual      |             +-------------------+
                             | Stock Minimo      |
                             +-------------------+
+                                     <>
                                       |
                                       |
-                                      |
-                                      v
+                                      o
                             +-------------------+
                             |Categoria_Producto |
                             +-------------------+
