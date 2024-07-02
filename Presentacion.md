@@ -1,5 +1,15 @@
 ## CREACION BASE DE UN SISTEMA PARA GESTIONAR UNA DIETETICA
 
+Alumno: Yeimmy Labrador
+
+Comisión: #57190
+
+Profesor: Anderson M. Torres
+
+Tutor: Ariel Annone
+
+Lenguaje utilizado: SQL
+
 ### PROBLEMA:
 Actualmente la Dietética “Yerbabuena Tienda Saludable“ utiliza Excel como sistema de gestión de pedidos para poder controlar y analizar datos sobre proveedores, productos y ventas, pero sus datos han incrementado y con el uso se rompe constantemente el archivo, por este motivo se encuentra en la necesidad de diseñar una base de datos eficiente que pueda manejar todas las operaciones relacionadas con su negocio.
 
@@ -63,6 +73,12 @@ Esta base de datos permite gestionar eficientemente el proceso de pedidos y cont
 - Registro de clientes y proveedores.
 - Categorias de los productos y cantidades.
 - Gestión de los pedidos y facturas.
+
+#### Diagrama Entidad Relacion
+
+El diagrama fue desarrollado en excalidraw
+![image](https://github.com/Yeimmy-ux/Proyecto_Dietetica_Labrador/assets/174386228/5fc5610e-a781-41b3-903c-a51714081e23)
+
 
 #### DER simplificado
 ```
