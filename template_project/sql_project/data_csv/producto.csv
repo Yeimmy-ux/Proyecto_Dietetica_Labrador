@@ -1,0 +1,31 @@
+Nombre;Descripcion;PrecioVenta;PrecioCosto;StockActual;StockMinimo;IDProveedor;IDCategoria
+Proteina Whey;Proteina en polvo 1kg;45.99;35.00;50;10;1;1
+BCAA;Aminoacidos ramificados 300g;29.99;22.00;30;8;1;1
+Creatina;Creatina monohidratada 500g;25.00;18.00;40;12;1;1
+Glutamina;Glutamina en polvo 300g;32.50;24.00;35;10;1;1
+Pre-entrenamiento;Suplemento pre-entrenamiento 200g;28.00;20.00;45;15;1;1
+Multivitaminico;Multivitaminico diario 60 capsulas;18.99;15.00;60;20;2;2
+Vitamina C;Vitamina C 1000mg 30 tabletas;12.50;10.00;70;25;2;2
+Vitamina D;Vitamina D 2000 IU 60 capsulas;14.00;11.00;55;20;2;2
+Omega 3;Omega 3 1000mg 90 capsulas;25.00;18.00;40;15;2;2
+B12;Vitamina B12 1000mcg 60 tabletas;20.00;16.00;50;18;2;2
+Magnesio;Magnesio 400mg 90 tabletas;15.00;12.00;45;12;2;3
+Calcio;Calcio 600mg 60 tabletas;22.00;18.00;35;10;2;3
+Zinc;Zinc 50mg 60 tabletas;17.50;14.00;50;15;2;3
+Hierro;Hierro 18mg 90 capsulas;19.00;15.00;40;12;2;3
+Selenio;Selenio 200mcg 60 tabletas;21.00;16.00;30;10;2;3
+Barras de Proteina;Barra de Proteina 60g;2.50;1.80;100;30;3;4
+Barras de Granola;Barra de granola 40g;1.80;1.30;90;25;3;4
+Barras deEnergia;Barra energetica 50g;2.00;1.50;80;20;3;4
+Barras de Chocolate;Barra de chocolate saludable 60g;2.80;2.00;70;15;3;4
+Barras de Frutos Secos;Barra de frutos secos 50g;2.40;1.90;85;25;3;4
+Chips de Kale;Chips de kale 100g;4.00;3.00;60;20;4;5
+Almendras;Almendras crudas 200g;6.00;4.50;50;15;4;5
+Pipas de Calabaza;Pipas de calabaza 150g;5.50;4.00;55;18;4;5
+Frutos Rojos;Mezcla de frutos rojos 200g;7.00;5.00;45;12;4;5
+Granola;Granola 500g;5.00;3.80;70;20;4;5
+Proteina de Guisante;Proteina de guisante en polvo 500g;30.00;22.00;40;15;5;6
+Proteina de Arroz;Proteina de arroz en polvo 500g;28.00;20.00;35;12;5;6
+Proteina de Soja;Proteina de soja en polvo 500g;32.00;24.00;30;10;5;6
+
+
